@@ -15,13 +15,11 @@ npm i react-captcha-simple    # npm
 yarn add react-captcha-simple # yarn
 ```
 
-## 🖥️ Example
-
-[![Try with CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/beautiful-ives-56h5f3?file=/src/App.js)
-
 ## 🖥️ Preview
 
-![Web](https://raw.githubusercontent.com/encoresky/qrcode-generator/main/demo-image.png)
+type={'easy'} : ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg)
+type={'normal'} : ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg)
+type={'hard'}: ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg)
 
 ## 📦 Usage
 
