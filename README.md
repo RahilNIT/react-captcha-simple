@@ -17,11 +17,14 @@ yarn add react-captcha-simple # yarn
 
 ## 🖥️ Preview
 
-easy : ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg)
+easy : 
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg)
 
-normal : ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg)
+normal : 
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg)
 
-hard: ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg)
+hard: 
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg)
 
 ## 📦 Usage
 
