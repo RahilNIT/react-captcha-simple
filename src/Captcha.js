@@ -33,7 +33,7 @@ function Captcha({randomNumber, type, width, height}) {
       for (let i = 0; i < randomNumber.length * 3; i++) {
         const radius = Math.random() * 10 + 2;
         const x = Math.random() * width;
-        const y = Math.random() * height;
+        const y = Math.random() * (height + 15);
 
         // Draw colored border
         ctx.beginPath();

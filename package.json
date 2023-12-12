@@ -30,15 +30,15 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
     "babel": "^6.23.0",
     "canvas": "^2.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rollup-plugin-livereload": "^2.0.5",
-    "rollup-plugin-serve": "^3.0.0",
-    "rollup-plugin-terser": "^7.0.2"
+    "rollup-plugin-livereload": "^2.0.5"
   },
   "devDependencies": {
-    "rollup": "^4.7.0"
+    "rollup": "^4.7.0",
+    "rollup-plugin-serve": "^3.0.0"
   }
 }
