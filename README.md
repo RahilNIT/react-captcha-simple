@@ -19,15 +19,15 @@ yarn add react-captcha-simple # yarn
 
 ### easy :
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg?raw=true)
+![Web](https://raw.githubusercontent.com/RahilNIT/react-captcha-simple/master/public/easy.jpg?token=GHSAT0AAAAAACLMOJGRDSYT4T2FFAU5C3TCZLYJTSA)
 
 ### normal : 
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg?raw=true)
+![Web](https://raw.githubusercontent.com/RahilNIT/react-captcha-simple/master/public/normal.jpg?token=GHSAT0AAAAAACLMOJGQV4XUCNNE6ZEAFR66ZLYJT3Q)
 
 ### hard: 
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg?raw=true)
+![Web](https://raw.githubusercontent.com/RahilNIT/react-captcha-simple/master/public/hard.jpg?token=GHSAT0AAAAAACLMOJGRMGNLDYEMQPVNKNF2ZLYJT6Q)
 
 ## Usage
 
