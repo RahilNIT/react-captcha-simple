@@ -1,12 +1,12 @@
 # React Easy Captcha Generator
 
-Easilty generate QR code from any text or url. It is based on [QR Server API](https://goqr.me/api/doc/create-qr-code/).
+Easily generates Captcha from any text.
 
 ## Features
 
 - Generate Captcha with 3 levels: easy, normal, hard.
-- Make a package with rollup module bundler.
-- Works on react.js snd next.js.
+- Make a package with a rollup module bundler.
+- Works on react.js and next.js.
 
 ## Installation
 
@@ -19,15 +19,15 @@ yarn add react-captcha-simple # yarn
 
 ### easy :
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg)
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg?raw=true)
 
 ### normal : 
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg)
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg?raw=true)
 
 ### hard: 
 
-![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg)
+![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg?raw=true)
 
 ## Usage
 
