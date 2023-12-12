@@ -2,38 +2,34 @@
 
 Easilty generate QR code from any text or url. It is based on [QR Server API](https://goqr.me/api/doc/create-qr-code/).
 
-## 💡 Features
+## Features
 
 - Generate Captcha with 3 levels: easy, normal, hard.
 - Make a package with rollup module bundler.
 - Works on react.js snd next.js.
 
-## 🔧 Installation
+## Installation
 
 ```bash
 npm i react-captcha-simple    # npm
 yarn add react-captcha-simple # yarn
 ```
 
-## 🖥️ Preview
+## Preview
 
-easy :
+### easy :
 
 ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/easy.jpg)
 
---------
-
-normal : 
+### normal : 
 
 ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/normal.jpg)
 
---------
-
-hard: 
+### hard: 
 
 ![Web](https://github.com/RahilNIT/react-captcha-simple/blob/master/public/hard.jpg)
 
-## 📦 Usage
+## Usage
 
 ```tsx
 import Captcha from "react-captcha-simple";
