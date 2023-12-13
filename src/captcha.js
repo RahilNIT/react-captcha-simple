@@ -1,5 +1,5 @@
 import {useEffect, useRef} from "react";
-import canvas from ""
+import canvas from "canvas"
 
 // type capProps = {
 //   randomNumber: string,
@@ -9,8 +9,6 @@ import canvas from ""
 // }
 
 function Captcha({randomNumber, type, width, height}) {
-  console.log(randomNumber, type, width, height)
-
   const canvasRef = useRef(null);
 
   const colors_easy = ["#bce695", "#fbd4d4", "#eae7a9", "#b2f5e5", "#eee"]
@@ -68,9 +66,7 @@ function Captcha({randomNumber, type, width, height}) {
   }, [])
 
   return (
-      <div>
         <canvas ref={canvasRef} width={width} height={height}/>
-      </div>
   );
 }
 

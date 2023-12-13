@@ -1,6 +1,6 @@
 {
   "name": "react-captcha-simple",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Easy to use and beautiful Captcha Image Generator for React.js projects.",
   "main": "index.js",
   "type": "module",
@@ -14,8 +14,8 @@
   },
   "keywords": [
     "React.js",
-    "TypeScript",
-    "Captcha"
+    "Captcha",
+    "rollup"
   ],
   "author": "Rahil Enayati",
   "license": "ISC",

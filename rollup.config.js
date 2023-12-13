@@ -5,7 +5,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
 import serve from "rollup-plugin-serve";
 export default {
-    input: 'src/index.js',
+    input: 'src/captcha.js',
     output: {
         file: 'dist/bundle.js',
         format: 'iife',
@@ -14,16 +14,19 @@ export default {
     },
     plugins: [
         nodeResolve({
-            extensions: ['.js'],
-        }),
-        replace({
-            'process.env.NODE_ENV': JSON.stringify( 'development' )
+            extensions: ['.js', '.jsx'],
         }),
         babel({
             presets: ['@babel/preset-react'],
-            exclude: 'node_modules/**',
+            // exclude: 'node_modules/**',
+            babelHelpers: 'bundled',
+            extensions: ['.js', '.jsx']
         }),
         commonjs(),
+        replace({
+            preventAssignment: false,
+            'process.env.NODE_ENV': JSON.stringify( 'development' )
+        }),
         serve({
             open: true,
             verbose: true,
